@@ -27,7 +27,7 @@ async function tailwindCSSModule (moduleOptions) {
   // https://tailwindcss.com/docs/using-with-preprocessors#future-css-features
   nuxt.options.build.postcss = defu(nuxt.options.build.postcss, {
     plugins: {
-      'postcss-nesting': {},
+      // 'postcss-nesting': {},
       'postcss-custom-properties': {}
     }
   })
